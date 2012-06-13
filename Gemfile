@@ -39,12 +39,13 @@ gem 'mysql2', '0.3.11'
 # gem 'ruby-debug'
 
 group :test do
-    gem 'cucumber-rails', '1.3.0'
-    gem 'rspec-rails', '2.10.1'
-    gem 'database_cleaner', '0.8.0'
+    gem 'rspec', '2.10.0'
+    gem 'webrat', '0.7.3'
 end
  
-gem 'authlogic', '3.1.3'
+group :development do
+	gem 'rspec-rails', '2.10.1'
+end
 
 gem 'therubyracer', '0.10.1'
 
